@@ -59,14 +59,8 @@
 
 
 <!--❤️❤️❤️ ACTUAL POST ACTUAL POST ACTUAL POST ACTUAL POST ACTUAL POST ACTUAL POST ❤️❤️❤️-->
-		{% for thought in thoughts %}
-		<section class="thought">
-			<div class="thought-date"><a class="thought-date" id="{{ thought.time | date(format='%s', timezone=thought.timezone) }}" href="#{{ thought.time | date(format='%s', timezone=thought.timezone) }}">{{ thought.time | date(format='%Y-%m-%d | %H:%M %p', timezone=thought.timezone) }}</a></div>
-			<div class="thought">
-				{{ thought.rendered_text }}
-			</div>
-		</section>
-		{% endfor %}
+
+					     
 <footer>
   <p>© 2015-2022 meirisoda. <br>
 All the rights to the original artworks and text belong to soda. No reproduction or republication without written permission.<br>
