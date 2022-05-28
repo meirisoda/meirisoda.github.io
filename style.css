@@ -1,0 +1,103 @@
+html {
+	background-color: #fffff;
+}
+
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: #11111;
+        font-size: 9pt;
+	padding: 3em;
+	max-width: 85em;
+	margin: 0 auto;
+	word-wrap: break-word;
+	line-height: 1.50;
+}
+
+/*
+❤️❤️ MAIN TITLE ❤️❤️
+ */
+h1 {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+	font-style: regular;
+	color: #11111;
+        text-align: center;
+        font-size: 14px;
+}
+
+/*
+❤️❤️ code blocks and highlight.js ❤️❤️
+ */
+pre {
+	overflow-x: auto;
+	word-wrap: normal;
+	border: none;
+	border-radius: 3px;
+}
+
+/*
+❤️❤️ inline <code> ❤️❤️
+ */
+code:not(.block) {
+	font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+	font-size: .8em;
+	padding: .1em;
+	border: 0px solid black;
+	border-radius: 3px;
+}
+
+/*
+❤️❤️ code blocks ❤️❤️
+ */
+code {
+	font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+	font-size: .8em;
+}
+
+/*
+❤️❤️ div for date/link for each post is in. The <a> tag itself is also a member of class "thought-date" so you can style that too if that's helpful ❤️❤️
+ */
+div.thought-date {
+	font-size: .8em;
+	font-weight: regular;
+	text-align: left;
+}
+
+/*
+❤️❤️ This is the outermost block element for a given thought post. You can style it if you like, but this is probably only useful for spacing your posts from each other in the way you'd like ❤️❤️
+ */
+section.thought {
+	margin: 1em 0em;
+}
+
+/*
+❤️❤️ This styles the element that contains the actual text of an individual post.❤️❤️
+ */
+div.thought {
+	border: 0px solid black;
+	border-radius: 0px;
+	padding: 1em;
+}
+
+
+
+img {
+  max-width: 33%;
+}
+
+
+nav {
+  text-align: center;
+}
+
+
+form {
+  text-align: center;
+  font-size: 9pt;
+}
+
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0em 10px;
+  color: #646464;
+  font-style: italic;
+}
