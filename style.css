@@ -27,6 +27,8 @@ hr {
 }
 
 h2 {
+    display: table;
+    margin: 0px auto 0px auto;
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
