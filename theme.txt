@@ -44,7 +44,7 @@ Things can be added and removed as I see fit
 				<td><a href="./inspiration.html">inspiration</a></td>
 			</tr>
 			<tr>
-				<td><a href="./meirisoda.html">meirisoda</a></td>
+				<td><a href="./works.html">works</a></td>
 			</tr>
 			<tr>
 				<td><a href="./thoughts.html">thoughts</a></td>
