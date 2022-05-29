@@ -8,7 +8,7 @@ Things can be added and removed as I see fit
 
 <head>
 	<title>navigation</title>
-	<style type="text/css">
+	<style type="text/css" href="style.css">
 		a {text-decoration: none; color: #000000;}
 		a:hover, ::selection {text-decoration: none; color: #000; background-color: #efefef;}
 		h3 {font-weight: 100; background-color: #efefef;}
