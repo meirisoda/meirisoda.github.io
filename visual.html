@@ -16,8 +16,21 @@
 		tt {color: #000000; -webkit-font-smoothing: none;}
 		tt {color: #000000}
 		::-webkit-details-marker {display: none;}
-		.image {display: grid; justify-content: center; grid-template-columns: auto auto auto auto auto auto auto;
+		.grid-container {
+			display: grid; 
+			justify-content: center; 
+			grid-template-columns: auto auto auto auto auto auto auto;
 		}
+		.column {
+			float: left;
+			width: 15%;
+			padding: 2px;
+		}
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+}
 	</style>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
