@@ -7,19 +7,6 @@ body {
 }
 
 
-/* ❤️ images ❤️*/
-.column {
-    float: left;
-    width: 15%;
-    padding: 2px;
-}
-
-/* ❤️ images ❤️*/
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 
 
