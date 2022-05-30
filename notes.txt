@@ -1,4 +1,6 @@
 single visual work:
 width:20%
 
-multiple visual works: 
+multiple visual works: 100%
+max per <tr></tr> = 5 <td></td>
+if less than 5 add: <td> </td>
