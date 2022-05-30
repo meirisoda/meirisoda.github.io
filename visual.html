@@ -18,8 +18,9 @@
 		::-webkit-details-marker {display: none;}
 		.grid-container {
 			display: grid; 
-			grid-template-columns: auto auto auto auto;
-			gap: 1px;
+			grid-template-columns: repeat(6, 1 fr);
+			grid-template-rows: auto
+			grid-gap: 1px;
 		}
 
 		.photo>img {
