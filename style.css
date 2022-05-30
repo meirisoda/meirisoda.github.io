@@ -12,16 +12,19 @@ body {
 
 
 a {
+    font-family: 'Helvetica', 'Arial', sans-serif;
     text-decoration: none;
     color: #000;
 }
 
 a:hover {
+    font-family: 'Helvetica', 'Arial', sans-serif;
     text-decoration: none;
     color: #000;
 }
 
 hr {
+    font-family: 'Helvetica', 'Arial', sans-serif;
     display: block;
     height: 1px;
     border: 0;
@@ -36,6 +39,7 @@ h2 {
 
 
 mark {
+    font-family: 'Helvetica', 'Arial', sans-serif;
     background: #141414;
     color:#ffffff;
     font-family: "input";
