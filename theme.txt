@@ -47,7 +47,7 @@ Things can be added and removed as I see fit
 				<td><a href="./works.html">works</a></td>
 			</tr>
 			<tr>
-				<td><a href="./thoughts.html">thoughts</a></td>
+				<td><a href="https://meirisoda.thoughts.page">thoughts</a></td>
 			</tr>
 		</table>
 		<br>
