@@ -9,16 +9,16 @@ Things can be added and removed as I see fit
 <head>
 	<title>soda</title>
 	<style type="text/css" href="style.css">
-		a {text-decoration: none; color: rgb(26,25,207)000;}
-		a:hover, ::selection {text-decoration: none; color: rgb(26,25,207); background-color: #efefef;}
+		a {text-decoration: none; color: color:#292929000;}
+		a:hover, ::selection {text-decoration: none; color: color:#292929; background-color: #efefef;}
 		h2 {font-weight: 100; background-color: #efefef;}
 		hr {border-width:0; border-top: 1px dotted #fff}
 		summary {outline: none;}
 		img {display: grid; border: 0px solid #ccc; width: auto; height: auto;}
 		mark {background: #ccc; color:#fff;}
 		table, th, td {border: 0px;}
-		tt {color: rgb(26,25,207)000; -webkit-font-smoothing: none;}
-		tt {color: rgb(26,25,207)000}
+		tt {color: color:#292929000; -webkit-font-smoothing: none;}
+		tt {color: color:#292929000}
 		::-webkit-details-marker {display: none;}
 		.image {display: grid; justify-content: center; grid-template-columns: 1fr 1fr;}
 	</style>
@@ -60,7 +60,7 @@ Things can be added and removed as I see fit
 		<p>🤍🤍</p>
 	</details>
 	<br>
-	<hr style="width:100%;border-width:1; border-top: 1px dotted rgb(26,25,207)000">
+	<hr style="width:100%;border-width:1; border-top: 1px dotted color:#292929000">
 
 <!--❤️❤️❤️ ENDING ❤️❤️❤️-->
 <!--🤍🤍 ABOUT ME 🤍🤍-->
