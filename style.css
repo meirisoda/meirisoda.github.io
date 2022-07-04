@@ -103,14 +103,3 @@ mark {
     font-size: 10px;
 }
 
-#submodule-01 {
-    width: auto;
-    background: #efefef;
-    color: color:#000000;
-    padding: 10px;
-    float: center;
-    position: relative;
-    margin-right: auto;
-    font-family: Verdana, Arial, Helvetica, sans-serif !important;
-    font-size: 8px;
-}
