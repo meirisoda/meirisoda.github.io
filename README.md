@@ -1,4 +1,4 @@
-#I left github, and then came back but not for the reason you would think. 
+### I left github, and then came back - but not for the reason you would think. 
 
 I started learning html/css/js in May, and originally created a github pages website. 
 However, I felt that my creativity and freedom(?) was being stifled so I scrapped this website and created a new website from scratch using neocities (meirisoda.neocities.org).
