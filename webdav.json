@@ -1,0 +1,9 @@
+{
+    "/frontend/www": {
+        "url": "https://meirisoda.neocities.org"
+    },
+    "/another-frontend/www": {
+        "url": "https://meirisoda.neocities.org",
+        "ignoreSSLErrors": true
+    }
+}
