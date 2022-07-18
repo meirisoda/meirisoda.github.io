@@ -25,9 +25,9 @@
         body{
         
         ::selection {color: #ffffff;
-           background: #e0efff;}
+            background: #e0efff;}
         ::-moz-selection {color: #ffffff;
-           background: #e0efff;}
+            background: #e0efff;}
         }
     </style>
     
@@ -49,7 +49,7 @@
 
 		p {font-family: Arial, sans-serif !important; font-size:9pt;}
 
-a {text-decoration:none; font-family: Arial, sans-serif !important; font-size:9pt; color: #000;}
+		a {text-decoration:none; font-family: Arial, sans-serif !important; font-size:9pt; color: #000;}
 		a:hover, ::selection {font-family: Arial, sans-serif !important; font-size:9pt; color: rgb(255, 255, 255); background-color: #000}
 
     table {font-size:9pt;}
@@ -62,8 +62,12 @@ a {text-decoration:none; font-family: Arial, sans-serif !important; font-size:9p
 		tt {font-family: Arial, sans-serif !important; font-size:9pt; color: #000; -webkit-font-smoothing: none;}
 		tt {font-family: Arial, sans-serif !important; font-size:9pt; color: #000}
 		::-webkit-details-marker {display: none;}
+		
+		details summary::marker { background: url("https://meirisoda.github.io/media/folder.png")} 
+		details[open] summary::marker { background: url("https://meirisoda.github.io/media/folder.png")}
+}
 
-
+        
         html {
             -webkit-text-size-adjust: 100%;
             text-size-adjust: 100%;
@@ -75,25 +79,25 @@ a {text-decoration:none; font-family: Arial, sans-serif !important; font-size:9p
         }
         @media screen and (max-width:1080px) and (orientation: portrait){
         #everything {position: center; zoom: 125%;
-        padding-left:30em; 
-        padding-right:30em; }
+        padding-left:20em; 
+        padding-right:20em; }
         }
-         @media screen and (min-width: 1100px) and (orientation: landscape){
+        @media screen and (min-width: 1100px) and (orientation: landscape){
         #everything { position: center; zoom: 125%;
-        	padding-left:30em;
-        	padding-right:30em;
-        	top:25px; }
+            padding-left:20em;
+            padding-right:20em;
+            top:25px; }
         }
         @media screen and (min-width: 2000px) and (orientation: landscape){
         #everything { position: absolute; zoom: 125%;
-        padding-left:50em;
-        	padding-right:50em;
-        	top:25px; }
+        padding-left:30em;
+            padding-right:30em;
+            top:25px; }
         @media screen and (min-width: 3000px) and (orientation: landscape){
         #everything { position: absolute; zoom: 260%;
-        	padding-left:60em;
-        	padding-right:60em;
-        	top:25px; }
+            padding-left:30em;
+            padding-right:30em;
+            top:25px; }
         }
 
     </style>
