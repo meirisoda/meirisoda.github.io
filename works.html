@@ -1,220 +1,128 @@
-<html>
-    <script>
-        /* To Disable Inspect Element */
-        $(document).bind("contextmenu", function(e) {
-            e.preventDefault();
-        });
+<!doctype html>
+<html class="no-js" lang="">
+<link rel="icon" href="./media/images/001.png" type="image/png">
 
-    </script>
-
-    <script>
-        document.onkeydown = function(e) {
-            if (event.keyCode == 123) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)) {
-                return false;
-            }
-        }
-
-    </script>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="title" content="soda">
-    <meta name="description" content="this is my personal website with everything that i create and make!">
-    <meta name="theme-color" content="#fff">
-    <meta name="keywords" content="Neocities, Geocities, HTML, doko demo issyo, doko demo issho, sony, nintendo, blog, aesthetic, web 1.0, old web, 90's, early 2000's, videogames, personal website, soda, meirisoda, minimal">
-    <meta property="og:url" content="https://meirisoda.github.io">
-    <meta property="og:title" content="soda">
-    <meta property="og:description" content="this is my personal website with everything that i create and make!">
-    <meta property="og:image" content="https://meirisoda.github.io/media/images/u/media.png">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:type" content="website">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://meirisoda.github.io">
-    <meta property="twitter:title" content="soda">
-    <meta property="twitter:description" content="this is my personal website with everything that i create and make!">
-    <meta property="twitter:image" content="https://meirisoda.github.io/media/images/u/media.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>works</title>
+	<link rel="icon" type="image/x-icon" href="./media/mebk.ico">
+	<style type="text/css" href="style.css">
+		body {padding-left: 2em; padding-right: 2em;}
 
+		html {font-family: Arial, Helvetica, sans-serif !important;}
 
-    
-<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat985.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/12/29/tiny-bunny.html" target="_blank" title="Tiny Bunny"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Tiny Bunny" style="position:absolute; top: 0px; right: 0px;" /></a>
-    <style>
-        body{
-        
-        ::selection {color: #ffffff;
-            background: #e0efff;}
-        ::-moz-selection {color: #ffffff;
-            background: #e0efff;}
-        }
-    </style>
-    
-    
-    <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
+		title {font-family: Arial, Helvetica, sans-serif !important; font-size:13pt; color:#000;}
+		title:hover, ::selection {font-family: Arial, Helvetica, sans-serif !important; font-size:13pt; color: rgb(255, 255, 255); background-color: #000}
 
-    <title>soda</title>
+		header {font-family: Arial, Helvetica, sans-serif !important; font-size:12pt; color:#000;}
+		header:hover, ::selection {font-family: Arial, Helvetica, sans-serif !important; font-size:13pt; color: rgb(255, 255, 255); background-color:#000}
 
+		p {font-family: Arial, Helvetica, sans-serif !important; font-size:10pt;}
 
-    <style type="text/css" href="style.css">
+		a {font-family: Arial, Helvetica, sans-serif !important; font-size:10pt; color: #000;}
+		a:hover, ::selection {font-family: Arial, Helvetica, sans-serif !important; font-size:10pt; color: rgb(255, 255, 255); background-color: #000}
 
-		html {font-family: Arial, sans-serif !important;}
-
-		title {font-family: Arial, sans-serif !important; font-size:9pt; color:#000;}
-		title:hover, ::selection {font-family: Arial, sans-serif !important; font-size:9pt; color: rgb(255, 255, 255); background-color: #000}
-
-		header {font-family: Arial, sans-serif !important; font-size:9pt; color:#000;}
-		header:hover, ::selection {font-family: Arial, sans-serif !important; font-size:9pt; color: rgb(255, 255, 255); background-color:#000}
-
-		p {font-family: Arial, sans-serif !important; font-size:9pt;}
-
-		a {text-decoration:none; font-family: Arial, sans-serif !important; font-size:9pt; color: #000;}
-		a:hover, ::selection {font-family: Arial, sans-serif !important; font-size:9pt; color: rgb(255, 255, 255); background-color: #000}
-
-    table {font-size:9pt;}
-
-		h2  {font-family: Arial, sans-serif !important; font-size:9pt; font-weight: 150; background-color: #efefef;}
+		h2  {font-family: Arial, Helvetica, sans-serif !important; font-size:13pt; font-weight: 150; background-color: #efefef;}
 		hr {border-width:0; border-top: 1px dotted #fff}
-		summary {font-family: Arial, sans-serif !important; font-size:9pt; outline: none;}
+		summary {font-family: Arial, Helvetica, sans-serif !important; font-size:10pt; outline: none;}
 		img {display: block; border: 0px solid #ccc; width: auto; width: auto;}
-		mark {font-family: Arial, sans-serif !important; background: #FFF800; color:#000;}
-		tt {font-family: Arial, sans-serif !important; font-size:9pt; color: #000; -webkit-font-smoothing: none;}
-		tt {font-family: Arial, sans-serif !important; font-size:9pt; color: #000}
+		mark {font-family: Arial, Helvetica, sans-serif !important; background: #000; color:#fff;}
+		table, th, td {border: 0px;}
+		tt {font-family: Arial, Helvetica, sans-serif !important; font-size:10pt; color: #000; -webkit-font-smoothing: none;}
+		tt {font-family: Arial, Helvetica, sans-serif !important; font-size:10pt; color: #000}
 		::-webkit-details-marker {display: none;}
-		
-		details summary::marker { background: url("https://meirisoda.github.io/media/folder.png")} 
-		details[open] summary::marker { background: url("https://meirisoda.github.io/media/folder.png")}
-}
-
-        
-        html {
-            -webkit-text-size-adjust: 100%;
-            text-size-adjust: 100%;
-        }
-        @media screen and (min-width: 600px){
-        #everything { position: center; zoom: 100%;
-        padding-left:20em;
-        padding-right:20em;
-            top:25px; }
-        }
-
-    </style>
-</head>
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="soda exists sometimes🍀">
+	<meta property="og:description" content="meirisoda">
+	<meta property="og:image" content="./media/images/001.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">
 </head>
 
-<center>
-<br><br>
 <tt>
+<body>
+	<header><a href="./index.html"><h1><img src="./media/mebk.png" style="max-width: 67.3469px"></h1></a></header>
+	<details open>
+		<!--❤️❤️❤️ DONT FORGET ❤️❤️❤️-->
+		<summary>nav/works</summary>
+		<br>
+		<table style="width:40%;">
+			<tr>
+				<td><a href="./works.html">works</a>/</td>
+			</tr>
+			<tr>
+				<td><a href="https://meirisoda.thoughts.page/">thoughts</a></td>
+			</tr>
+			<tr>
+				<td><a href="./inspiration.html">inspiration</a></td>
+			</tr>
+		</table>
+		<br>
+	</details>
+	<hr style="width:40%;text-align:left;margin-left:0">
 
-  <body style=" background-color: #fff; font-family: Arial; font-size: 9px;">
-    <div id="everything">
-
-<br><a href="https://meirisoda.github.io"><img src="./media/jp.gif" style="max-width:200px"></a>
-
-            <br><br>
-            <b>＊*•̩̩͙✩•̩̩͙*˚　stuff i made　˚*•̩̩͙✩•̩̩͙*˚＊
-            </b>
-            <br><div style="float: right">[<a href="https://meirisoda.github.io" target="_top">home/ホーム</a>]</div>
-                        <div style="float: left">[<a href="https://meirisoda.github.io/index.html" target="_top">back</a>]</div>
-            <br>
-            <br> 
-             categorized into types of media!
-            <br>
-            <br>
-            <br>
+<!--❤️❤️❤️ BEGINS HERE ❤️❤️❤️-->
+	<h2>things i create</h2>
+	<hr style="width:40%;text-align:left;margin-left:0">
 
 
-<!--❤️❤️❤️ BEGINS HERE ❤️❤️❤️-->	
-<br>
-  <div style="display:inline-block; vertical-align:center;"><a href="https://meirisoda.github.io/media/tororun.gif"></a></div>
-      <div style="display:inline-block; vertical-align: center;">
-        <img src="https://meirisoda.github.io/media/toro_anime_one.gif">
-        <table border="1">
-          <tr>
-            <td>
-              <div style="padding-left:5px; padding-right:5px; display:inline-block;">
-                  <p>
-                    <b><i><a href="https://meirisoda.github.io/visual.html">illustrations and completed works</a></i></b>
-                  </p>
-              </div>
-              <div style="display:inline-block; vertical-align:center; horizontal-align:right">
-                <img src="https://meirisoda.github.io/media/new.gif" alt="img"/>
-              </div>
-              <br>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div style="padding-left:5px; padding-right:5px; display:inline-block;">
-                <p><b><i><a href="https://meirisoda.github.io/sketchbook.html">sketchbook</a></i></b> (doodles, sketches and other stuff!)</p>
-              </div>
-              <div style="display:inline-block; vertical-align:center; horizontal-align:right">
-                <img src="https://meirisoda.github.io/media/new.gif" alt="img"/>
-              </div>
-            </td>
-          </tr> 
-          <tr>
-            <td>
-              <div style="padding-left:5px; padding-right:5px; display:inline-block;">
-                <p><b><i><a href="https://meirisoda.github.io/audio.html">audio works</a></i></b> (recordings, covers and compositions)</p>
-              </div>
-            </td>
-          </tr> 
-          <tr>
-            <td>
-              <div style="padding-left:5px; padding-right:5px; display:inline-block">
-                <p><b><i><a href="https://meirisoda.github.io/interactive.html">interactive</a></i></b> (stuff like visual novels)   </p>
-              </div>
-            </td>
-          </tr> 
-          <tr>
-            <td>
-              <div style="padding-left:5px; padding-right:5px; display:inline-block">
-                <p><b><i><a href="https://meirisoda.github.io/other.html">other</a></i></b> (other things i've done/made?)   </p>
-              </div>
-            </td>
-          </tr> 
-        </table>
-      </div>
-  <div style="display:inline-block; vertical-align:center;"><a href="https://meirisoda.github.io/media/tororun.gif"></a></div>
+<!--❤️❤️ VISUAL ❤️❤️-->
+	<div style="display:inline-block;">
+		<details open>
+			<summary> <b><i><a href="./visual.html">illustration and completed works</a></i></b></summary>
+		</div>
+		<div style="display:inline-block; vertical-align:center; horizontal-align:right">
+      <img src="https://meirisoda.github.io/media/new.gif" alt="img"/>
+    </div>
 
-<br>
-<br>
-	
-	<hr style="width:100%;border-width:1; border-top: 1px dotted; color:#000">
-
-<!--🤍🤍 ABOUT ME 🤍🤍-->
-		<p align="center"><a href="https://meirisoda.github.io/about.html">about me</a> | <a href="https://meirisoda.github.io/links.html">links</a> | <a href="https://meirisoda.github.io/site.html">about the site</a></p>
-	© 2015-2022 meirisoda. All the rights to the original artworks and text belong to soda.<br>No reproduction or republication without written permission.
-	<br>
-	<div class="date">
+		<br>
 		<br>
 
+		<div style="display:inline-block;">
+			<details open>
+				<summary> <b><i><a href="./sketchbook.html">sketchbook</a></i></b> (doodles, sketches and other stuff!)</summary>
+			</div>
+			<div style="display:inline-block; vertical-align:center; horizontal-align:right">
+				<img src="https://meirisoda.github.io/media/new.gif" alt="img"/>
+			</div>
+
+			<br>
+			<br>
+
+			<div style="display:inline-block;">
+				<details open>
+					<summary> <b><i><a href="./audio.html">audio works</a></i></b> (recordings, covers and compositions)</summary>
+				</details>
+				</div>
+
+			<br>
+			<br>
+
+			<div style="display:inline-block;">
+				<details open>
+					<summary> <b><i><a href="./interactive.html">interactive</a></i></b> (websites, visual novels etc.)</summary>
+				</details>
+			</div>
+
+			<br>
+			<br>
+
+			<div style="display:inline-block;">
+				<details open>
+						<summary> <b><i><a href="./other.html">other</a></i></b> (other things i've done/made?)</summary>
+				</details>
+			</div>
+
+    <br>
+		<br>
+<hr style="width:100%;border-width:1; border-top: 1px dotted; color:#000">
+
+<!--🤍🤍 ABOUT ME 🤍🤍-->
+<p align="left"><a href="https://meirisoda.github.io/about.html">about me</a> | <a href="https://meirisoda.github.io/links.html">links</a> | <a href="https://meirisoda.github.io/site.html">about the site</a></p>
+	© 2015-2022 meirisoda. All the rights to the original artworks and text belong to soda.<br>No reproduction or republication without written permission.
+	<br>
+	<br>
 </body>
-</center>
 </tt>
 </html>
