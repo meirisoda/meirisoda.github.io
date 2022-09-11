@@ -174,11 +174,11 @@ height:19px
 
 html {
     background-color: #fff;
-    font-family: Verdana, Georgia, serif !important;
+    font-family: Verdana, Arial, sans-serif !important;
 }
 
 hr {
-    font-family: Verdana, Georgia, serif !important;
+    font-family: Verdana, Arial, sans-serif !important;
     display: block;
     height: 1px;
     border: 0;
@@ -244,7 +244,7 @@ mark {
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    font-family: Verdana, Georgia, serif !important;
+    font-family: Verdana, Arial, sans-serif !important;
     font-size: 10px;
 }
 
@@ -258,7 +258,7 @@ mark {
     margin-right: auto;
     margin-left: auto;
     margin-top: 0px;
-    font-family: Verdana, Georgia, serif !important;
+    font-family: Verdana, Arial, sans-serif !important;
     font-size: 10px;
 }
 
@@ -273,7 +273,7 @@ mark {
     margin-left: auto;
     margin-top: 0px;
     margin-bottom: 5%;
-    font-family: Verdana, Georgia, serif !important;
+    font-family: Verdana, Arial, sans-serif !important;
     font-size: 10px;
 }
 
