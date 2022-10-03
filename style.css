@@ -10,12 +10,12 @@
 
 body {
 	font-size: 12px;
-	font-family: Verdana, sans-serif;
+	font-family: Baskerville, serif;
 	background: #fff;
 }
 
 table.myFormat tr td {font-size: 12px;
-	font-family: Verdana, sans-serif;
+	font-family: Baskerville, sans-serif;
 	background: #fff; }
 
 body.section-1 { }
