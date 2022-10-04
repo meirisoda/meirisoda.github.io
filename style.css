@@ -9,21 +9,21 @@
 }
 
 body {
-	font-size: 15px;
-	font-family: Baskerville, serif;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
 	background: #fff;
 }
 
-table.myFormat tr td {font-size: 15px;
-	font-family: Baskerville, sans-serif;
+table.myFormat tr td {font-size: 14px;
+	font-family: Verdana, sans-serif;
 	background: #fff; }
 
 body.section-1 { }
 body.section-2 { }
 body.section-3 { }
 
-    a {text-decoration:none; font-family: Baskerville, serif; font-size:15px; color: #1501EE;}
-		a:hover, :selection {font-family: Baskerville, serif; font-size:15px; color: #1501EE;}
+    a {text-decoration:none; font-family: Verdana, sans-serif; font-size:14px; color: #1501EE;}
+		a:hover, :selection {font-family: Verdana, sans-serif; font-size:14px; color: #1501EE;}
 
 a img { border: none; }
 
