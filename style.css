@@ -9,12 +9,12 @@
 }
 
 body {
-	font-size: 12px;
+	font-size: 14px;
 	font-family: Verdana, sans-serif;
 	background: #fff;
 }
 
-table.myFormat tr td {font-size: 12px;
+table.myFormat tr td {font-size: 14px;
 	font-family: Verdana, sans-serif;
 	background: #fff; }
 
@@ -22,13 +22,13 @@ body.section-1 { }
 body.section-2 { }
 body.section-3 { }
 
-    a {text-decoration:none; font-family: Verdana, sans-serif; font-size:12px; color: #0000FF;}
-		a:hover, :selection {font-family: Verdana, sans-serif; font-size:12px; color: #0000FF;}
+    a {text-decoration:none; font-family: Verdana, sans-serif; font-size:14px; color: #0000FF;}
+		a:hover, :selection {font-family: Verdana, sans-serif; font-size:14px; color: #0000FF;}
 
 a img { border: none; }
 
 #menu {
-    width: 215px;
+    width: 230px;
     overflow: auto;
     top: 0;
     bottom: 0;
@@ -47,7 +47,7 @@ a img { border: none; }
 
 #content {
     height: 100%;
-    margin: 0 0 0 215px;
+    margin: 0 0 0 230px;
     top: 0;
 }
 
