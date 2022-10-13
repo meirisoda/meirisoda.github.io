@@ -59,6 +59,11 @@ a img { border: none; }
 .updates {color:#808080; }
 #content p { width: 450px; margin-bottom: 9px; }
 
+.text {
+    word-wrap: break-word;
+    width: 450px;
+}
+
 p {
     margin: 0 0 9px 0;
 }
