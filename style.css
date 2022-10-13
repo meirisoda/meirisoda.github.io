@@ -57,7 +57,7 @@ a img { border: none; }
 }
 
 .updates {color:#808080; }
-#content p { width: 400px; margin-bottom: 9px; }
+#content p { width: 450px; margin-bottom: 9px; }
 
 p {
     margin: 0 0 9px 0;
@@ -69,6 +69,6 @@ h3 { font-size: 16px; }
 h4 { font-size: 12px; }
 
 #img-container	{ margin: 0; padding: 0; }
-#img-container p	{ width: 400px; margin: 0; padding: 0 0 12px 0; }
+#img-container p	{ width: 450px; margin: 0; padding: 0 0 12px 0; }
 
 #once { clear: left; }
