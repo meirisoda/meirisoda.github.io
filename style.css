@@ -57,11 +57,11 @@ a img { border: none; }
 }
 
 .updates {color:#808080; }
-#content p { width: 450px; margin-bottom: 9px; }
+#content p { width: 550px; margin-bottom: 9px; }
 
 .text {
     word-wrap: break-word;
-    width: 450px;
+    width: 550px;
 }
 
 p {
@@ -74,6 +74,6 @@ h3 { font-size: 16px; }
 h4 { font-size: 12px; }
 
 #img-container	{ margin: 0; padding: 0; }
-#img-container p	{ width: 450px; margin: 0; padding: 0 0 12px 0; }
+#img-container p	{ width: 550px; margin: 0; padding: 0 0 12px 0; }
 
 #once { clear: left; }
