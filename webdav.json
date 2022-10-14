@@ -1,9 +1,0 @@
-{
-    "/frontend/www": {
-        "url": "https://meirisoda.github.io"
-    },
-    "/another-frontend/www": {
-        "url": "https://meirisoda.github.io",
-        "ignoreSSLErrors": true
-    }
-}
