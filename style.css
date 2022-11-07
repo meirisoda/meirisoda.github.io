@@ -32,11 +32,11 @@ body.section-3 { }
 a img { border: none; }
 
 #menu {
-    width: 230px;
+    width: 250px;
     overflow: auto;
     top: 0;
     bottom: 0;
-	left: 0;
+	left: 1;
     right: 1;
     position: fixed;
     height: 100%;
@@ -52,7 +52,7 @@ a img { border: none; }
 
 #content {
     height: 100%;
-    margin: 0 0 0 230px;
+    margin: 0 0 0 250px;
     top: 0;
 }
 
