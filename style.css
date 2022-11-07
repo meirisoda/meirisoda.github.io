@@ -18,6 +18,10 @@ table.myFormat tr td {font-size: 12px;
 	font-family: Verdana, sans-serif;
 	background: #fff; }
 
+    table {font-size: 12px;
+        font-family: Verdana, sans-serif;
+        background: #fff; }
+
 body.section-1 { }
 body.section-2 { }
 body.section-3 { }
