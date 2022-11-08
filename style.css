@@ -9,7 +9,8 @@
 }
 
 body {
-	font-size: 12px;
+	zoom: 120%; 
+    font-size: 12px;
 	font-family: Verdana, sans-serif;
 	background: #fff;
 }
