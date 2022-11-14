@@ -61,6 +61,10 @@ a img { border: none; }
     padding: 5px 5px 25px 5px;
 }
 
+.containermenu {
+    padding: 5px 5px 25px 5px;
+}
+
 .updates {color:#808080; }
 #content p { width: 600px; margin-bottom: 9px; }
 
