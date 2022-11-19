@@ -12,7 +12,9 @@ body {
 	zoom: 120%; 
     font-size: 12px;
 	font-family: Verdana, sans-serif;
-	background: #fff;
+    background-image: url("https://i.imgur.com/cewuXWI.png");
+    background-repeat: repeat;
+	background-color: #fff;
 }
 
 table.myFormat tr td {font-size: 12px;
