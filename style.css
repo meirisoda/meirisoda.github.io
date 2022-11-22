@@ -17,6 +17,17 @@ body {
 	background-color: #fff;
 }
 
+.dark-mode {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #000;
+}
+
+.dark-mode a { color: #818181; }
+
 table.myFormat tr td {font-size: 12px;
 	font-family: Verdana, sans-serif;
 	background: #fff; }
