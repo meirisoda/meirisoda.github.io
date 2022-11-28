@@ -94,7 +94,7 @@ h4 { font-size: 12px; }
 #once { clear: left; }
 
 .bgimg {
-background-image: url(/"./img/index/443-4435429_katamari-png-transparent-png-removebg-preview (1).png");
+    background-image: url("./img/index/443-4435429_katamari-png-transparent-png-removebg-preview (1).png");
     background-repeat: no-repeat;
 }
 
