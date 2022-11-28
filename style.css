@@ -93,5 +93,13 @@ h4 { font-size: 12px; }
 
 #once { clear: left; }
 
+.static {
+    position:absolute;
+    background: none;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
 
 /* #E78484 */
