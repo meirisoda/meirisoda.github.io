@@ -5,6 +5,8 @@
 *save:background-image: url("https://i.imgur.com/cewuXWI.png");
     background-repeat: repeat;
 *#E78484
+*
+*top, right, bottom, left
 */
 * {
 	margin: 0;
@@ -43,8 +45,8 @@ a img { border: none; }
     overflow: auto;
     top: 0;
     bottom: 0;
-	left: 1;
-    right: 1;
+	left: 2;
+    right: 2;
     position: fixed;
     height: 100%;
 	background-color: #fff;
