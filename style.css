@@ -102,4 +102,21 @@ h4 { font-size: 12px; }
     opacity:0;
   }
 
+#music {
+    object-fit: none;
+    object-position: 100px 50px;
+    /* String value */
+}
+
+#manga {
+    object-fit: none;
+    object-position: 150px 150px;
+    /* String value */
+}
+
+#games {
+    object-fit: none;
+    object-position: 100px 250px;
+    /* String value */
+}
 /* #E78484 */
