@@ -137,4 +137,25 @@ h4 { font-size: 12px; }
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.custom-cur {
+    cursor: url('./img/RWCepNL.svg');
+}
+
+/* With a .cur fallback */
+.custom-cur {
+cursor: url('./img/RWCepNL.svg'),
+url('./img/RWCepNL.cur');
+}
+
+/* With a custom hotspot */
+.custom-cur {
+cursor: url('./img/RWCepNL.svg') 10 12;
+}
+
+/* With a non-custom fallback: */
+.custom-cur {
+cursor: url('./img/RWCepNL.svg'),
+move;
+}
 /* #E78484 */
