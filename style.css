@@ -124,6 +124,7 @@ h4 { font-size: 12px; }
 
 #floated{
     float: left;
+    padding: 0 10px 10px 0;
 }
 
 .status {
