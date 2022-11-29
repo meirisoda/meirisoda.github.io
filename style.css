@@ -93,10 +93,7 @@ h4 { font-size: 12px; }
 
 #once { clear: left; }
 
-.bgimg {
-    background-image: url("./img/index/443-4435429_katamari-png-transparent-png-removebg-preview (1).png");
-    background-repeat: no-repeat;
-}
+
 
 .static {
     position:absolute;
@@ -123,5 +120,17 @@ h4 { font-size: 12px; }
     object-fit: none;
     object-position: 100px 250px;
     /* String value */
+}
+
+.status {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* #E78484 */
