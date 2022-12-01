@@ -25,11 +25,11 @@ body {
 
 table.myFormat tr td {font-size: 13px;
 	font-family: Verdana, sans-serif;
-	background: rgb(255, 252, 249); }
+	background: #fff; }
 
     table {font-size: 13px;
         font-family: Verdana, sans-serif;
-        background-color: rgb(255, 252, 249); }
+        background-color: #fff; }
 
 
     a {text-decoration: none; font-family: Verdana, sans-serif; font-size:13px; color: #C6CCD8;}
