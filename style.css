@@ -4,7 +4,7 @@
 *made by meirisoda
 *save:background-image: url("https://i.imgur.com/cewuXWI.png");
     background-repeat: repeat;
-*#E78484
+*#C6CCD8
 *
 *top, right, bottom, left
 */
@@ -32,8 +32,8 @@ table.myFormat tr td {font-size: 13px;
         background-color: rgb(255, 252, 249); }
 
 
-    a {text-decoration: none; font-family: Verdana, sans-serif; font-size:13px; color: #E78484;}
-		a:hover, :selection {font-family: Verdana, sans-serif; font-size:13px; color: #E78484;}
+    a {text-decoration: none; font-family: Verdana, sans-serif; font-size:13px; color: #C6CCD8;}
+		a:hover, :selection {font-family: Verdana, sans-serif; font-size:13px; color: #C6CCD8;}
 
 a img { border: none; }
 
@@ -158,4 +158,4 @@ cursor: url('./img/RWCepNL.svg') 10 12;
 cursor: url('./img/RWCepNL.svg'),
 move;
 }
-/* #E78484 */
+/* #C6CCD8 */
