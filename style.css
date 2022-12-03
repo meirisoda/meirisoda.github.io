@@ -15,7 +15,7 @@
 
 body {
 	zoom: 100%; 
-    font-size: 13px;
+    font-size: 12px;
 	font-family: Verdana, sans-serif;
 	background-color: #fff;
 
@@ -23,11 +23,11 @@ body {
 }
 
 
-table.myFormat tr td {font-size: 13px;
+table.myFormat tr td {font-size: 12px;
 	font-family: Verdana, sans-serif;
 	background: #fff; }
 
-    table {font-size: 13px;
+    table {font-size: 12px;
         font-family: Verdana, sans-serif;
         background-color: #fff; }
 
