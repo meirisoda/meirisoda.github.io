@@ -16,7 +16,7 @@
 body {
 	zoom: 100%; 
     font-size: 12px;
-	font-family: Verdana, sans-serif;
+	font-family: monospace;
 	background-color: #fff;
 
     background-repeat: repeat;
