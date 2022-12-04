@@ -24,16 +24,16 @@ body {
 
 
 table.myFormat tr td {font-size: 12px;
-	font-family: Verdana, sans-serif;
+	font-family: monospace;
 	background: #fff; }
 
     table {font-size: 12px;
-        font-family: Verdana, sans-serif;
+        font-family: monospace;
         background-color: #fff; }
 
 
-    a {text-decoration: none; font-family: Verdana, sans-serif; font-size:13px; color: #C6CCD8;}
-		a:hover, :selection {font-family: Verdana, sans-serif; font-size:13px; color: #C6CCD8;}
+    a {text-decoration: none; monospace; font-size:12px;}
+		a:hover, :selection {monospace; font-size:12px;}
 
 a img { border: none; }
 
