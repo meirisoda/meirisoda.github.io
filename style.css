@@ -33,7 +33,7 @@ table.myFormat tr td {font-size: 12px;
 
 
     a {text-decoration: none; font-family: monospace; font-size:12px;}
-		a:hover, :selection {family-family: monospace; font-size:12px;}
+		a:hover, :selection {font-family: monospace; font-size:12px;}
 
 a img { border: none; }
 
