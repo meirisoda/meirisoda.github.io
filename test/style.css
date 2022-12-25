@@ -1,0 +1,38 @@
+
+@charset "UTF-8";
+@font-face {
+  font-family: "Louise";
+  src: url("./test/Louise-Regular.woff2") format("woff2"), url("./test/Louise-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+a {font-family: monospace; font-size:12px; color: #0000EE;}
+
+a:hover, :selection {font-family: monospace; font-size:12px; color: #0000EE;}
+
+b {font-family: monospace; font-size:12px;}
+
+.f {font-family: monospace; font-size:12px;}
+
+.notes {
+  background: #f4f3f0;
+  width: max-content;
+  border-radius: 30px;
+  margin: 2.5vh 2.5vw;
+  padding: 1em;
+  box-shadow: 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0;
+
+
+h2 {
+  font-size: 1.8rem;
+  font-family: "Louise";
+  text-align: center;
+  color: #f4f3f0;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0;
+}
+
+<img src="./img/main assets/image_2022-12-03_162237500.png" style="max-width: 160px;">
