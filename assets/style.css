@@ -2,7 +2,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Louise";
-  src: url("./test/Louise-Regular.woff2") format("woff2"), url("./test/Louise-Regular.woff") format("woff");
+  src: url("Louise-Regular.woff2") format("woff2"), url("Louise-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -34,5 +34,3 @@ h2 {
   margin: 0;
   letter-spacing: 0;
 }
-
-<img src="./img/main assets/image_2022-12-03_162237500.png" style="max-width: 160px;">
