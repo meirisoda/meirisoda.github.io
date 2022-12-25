@@ -1,40 +1,15 @@
-/**
-* CSS
-*
-*made by meirisoda
-*save:background-image: url("https://i.imgur.com/cewuXWI.png");
-    background-repeat: repeat;
-*#C6CCD8
-*
-*top, right, bottom, left
-*/
-* {
-	margin: 0;
-	padding: 0;
-}
+a {font-family: monospace; font-size:12px; color: #0000EE;}
 
-body {
-	zoom: 100%;
-    font-size: 12px;
-	font-family: monospace;
-	background-color: #fff;
+a:hover, :selection {font-family: monospace; font-size:12px; color: #0000EE;}
 
-    background-repeat: repeat;
-}
+b {font-family: monospace; font-size:12px;}
 
+.f {font-family: monospace; font-size:12px;}
 
-table.myFormat tr td {font-size: 12px;
-	font-family: monospace;
-	background: #fff; }
-
-    table {font-size: 12px;
-        font-family: monospace;
-        background-color: #fff; }
-
-
-    a {text-decoration: none; font-family: monospace; font-size:12px;}
-		a:hover, :selection {font-family: monospace; font-size:12px;}
-
-a img { border: none; }
-
-/* #C6CCD8 */
+.notes {
+  background: #f4f3f0;
+  width: max-content
+  border-radius: 30px;
+  margin: 2.5vh 2.5vw;
+  padding: 1em;
+  box-shadow: 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0, 0 0 30px #f4f3f0;

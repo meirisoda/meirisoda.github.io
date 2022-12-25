@@ -1,0 +1,40 @@
+/**
+* CSS
+*
+*made by meirisoda
+*save:background-image: url("https://i.imgur.com/cewuXWI.png");
+    background-repeat: repeat;
+*#C6CCD8
+*
+*top, right, bottom, left
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	zoom: 100%;
+    font-size: 12px;
+	font-family: monospace;
+	background-color: #fff;
+
+    background-repeat: repeat;
+}
+
+
+table.myFormat tr td {font-size: 12px;
+	font-family: monospace;
+	background: #fff; }
+
+    table {font-size: 12px;
+        font-family: monospace;
+        background-color: #fff; }
+
+
+    a {text-decoration: none; font-family: monospace; font-size:12px;}
+		a:hover, :selection {font-family: monospace; font-size:12px;}
+
+a img { border: none; }
+
+/* #C6CCD8 */

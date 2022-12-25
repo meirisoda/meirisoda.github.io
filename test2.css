@@ -35,7 +35,6 @@ body {
   overflow: hidden;
   color: #2a2323;
   font-family: "Director";
-  letter-spacing: -2px;
   counter-reset: mycounter;
   font-weight: normal;
 }
