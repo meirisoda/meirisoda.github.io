@@ -16,7 +16,7 @@
 ::-webkit-scrollbar-thumb {
     width: 6px;
     border-radius: 10px;
-    background-color: #bfcbda;
+    background-color: #b3b3b3;
 }
 
 iframe {
@@ -26,10 +26,11 @@ iframe {
 }
 
 
-a {font-family: monospace; font-size:12px; color:#AEC1D9;
+a {font-family: monospace; font-size:12px; color:#b3b3b3;
 }
 
-a:hover, :selection {font-family: monospace; font-size:12px; color:#AEC1D9;}
+a:hover {font-family: monospace; font-size:12px; color:#fff; background-color:#b3b3b3;}
+a:selection {font-family: monospace; font-size:12px; color:#b3b3b3;}
 
 
 b {font-family: monospace; font-size:12px;}
@@ -46,13 +47,17 @@ b {font-family: monospace; font-size:12px;}
 }
 
 h2 {
-  font-size: 35pt;
-  font-family: "Louise";
+  font-size: 30pt;
   text-align: left;
-  color: #000;
-  padding: 0;
-  margin: 0;
-  letter-spacing: 0;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+h2:hover {
+  font-size: 30pt;
+  text-align: left;
+  color: #fff;
+  background-color:#b3b3b3;
+  text-decoration:none;
 }
 
 
