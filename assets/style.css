@@ -38,12 +38,12 @@ b {font-family: monospace; font-size:12px;}
 .f {font-family: monospace; font-size:12px;}
 
 .notes {
-  background: #f4f3f0;
+  background: #EEEEEE;
   width: max-content;
   border-radius: 8px;
   margin: 1.5vh 0.5vw;
   padding: 3px;
-  box-shadow: 0 0 10px #f4f3f0, 0 0 10px #f4f3f0, 0 0 10px #f4f3f0, 0 0 10px #f4f3f0, 0 0 10px #f4f3f0, 0 0 10px #f4f3f0, 0 0 10px #f4f3f0;
+  box-shadow: 0 0 10px #EEEEEE, 0 0 10px #EEEEEE, 0 0 10px #EEEEEE, 0 0 10px #EEEEEE, 0 0 10px #EEEEEE, 0 0 10px #EEEEEE, 0 0 10px #EEEEEE;
 }
 
 h2 {
