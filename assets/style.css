@@ -1,3 +1,4 @@
+/* #b3b3b3 */
 
 @charset "UTF-8";
 @font-face {
@@ -26,16 +27,16 @@ iframe {
 }
 
 
-a {font-family: monospace; font-size:12px; color:#b3b3b3;
+a {font-family: Garamond, serif; font-size:12px; color:#232323;
 }
 
-a:hover {font-family: monospace; font-size:12px; color:#fff; background-color:#b3b3b3;}
-a:selection {font-family: monospace; font-size:12px; color:#b3b3b3;}
+a:hover {font-family: Garamond, serif; font-size:12px; color:#fff; background-color:#232323;}
+a:selection {font-family: Garamond, serif; font-size:12px; color:#232323;}
 
 
-b {font-family: monospace; font-size:12px;}
+b {font-family: Garamond, serif; font-size:12px;}
 
-.f {font-family: monospace; font-size:12px;}
+.f {font-family: Garamond, serif; font-size:12px;}
 
 .notes {
   background: #EEEEEE;
@@ -49,14 +50,14 @@ b {font-family: monospace; font-size:12px;}
 h2 {
   font-size: 30pt;
   text-align: left;
-  color: #b3b3b3;
+  color: #232323;
   text-decoration: none;
 }
 h2:hover {
   font-size: 30pt;
   text-align: left;
   color: #fff;
-  background-color:#b3b3b3;
+  background-color:#232323;
   text-decoration:none;
 }
 
