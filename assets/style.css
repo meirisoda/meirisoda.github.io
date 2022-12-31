@@ -1,4 +1,4 @@
-/* #b3b3b3 */
+/* #232323 */
 
 @charset "UTF-8";
 @font-face {
@@ -17,7 +17,7 @@
 ::-webkit-scrollbar-thumb {
     width: 6px;
     border-radius: 10px;
-    background-color: #b3b3b3;
+    background-color: #232323;
 }
 
 iframe {
@@ -27,18 +27,18 @@ iframe {
 }
 
 
-a {font-family: monospace, serif; font-size:12px; color:#b3b3b3;
+a {font-family: Garamond, serif; font-size:12px; color:#232323;
 }
 
-a:hover {font-family: monospace, serif; font-size:12px; color:#fff; background-color:#b3b3b3;}
-a:selection {font-family: monospace, serif; font-size:12px; color:#b3b3b3;}
+a:hover {font-family: Garamond, serif; font-size:12px; color:#fff; background-color:#232323;}
+a:selection {font-family: Garamond, serif; font-size:12px; color:#232323;}
 
 
-b {font-family: monospace, serif; font-size:12px;}
+b {font-family: Garamond, serif; font-size:12px;}
 
-pre {font-family: monospace, serif; font-size:12px; color:#000;}
+pre {font-family: Garamond, serif; font-size:12px; color:#000;}
 
-.f {font-family: monospace, serif; font-size:12px;}
+.f {font-family: Garamond, serif; font-size:12px;}
 
 .notes {
   background: #EEEEEE;
@@ -59,7 +59,7 @@ h2:hover {
   font-size: 30pt;
   text-align: left;
   color: #fff;
-  background-color:#b3b3b3;
+  background-color:#232323;
   text-decoration:none;
 }
 
