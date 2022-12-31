@@ -75,6 +75,17 @@ h2:hover {
   background-color: hsl(0,0%,100%);
 }
 
+#rectangle{
+    width:300px;
+    height:20px;
+    background:none;
+}
+#rectangle1{
+    width:320px;
+    height:20px;
+    background:none;
+}
+
 @keyframes rainbow {
   100%, 0% {
     color: #f091b9;
