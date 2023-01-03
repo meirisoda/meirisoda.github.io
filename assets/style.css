@@ -27,18 +27,18 @@ iframe {
 }
 
 
-a {font-family: Garamond, serif; font-size:12px; color:#232323;
+a {font-family: palatino, serif; font-size:12px; color:#232323;
 }
 
-a:hover {font-family: Garamond, serif; font-size:12px; color:#fff; background-color:#232323;}
-a:selection {font-family: Garamond, serif; font-size:12px; color:#232323;}
+a:hover {font-family: palatino, serif; font-size:12px; color:#fff; background-color:#232323;}
+a:selection {font-family: palatino, serif; font-size:12px; color:#232323;}
 
 
-b {font-family: Garamond, serif; font-size:12px;}
+b {font-family: palatino, serif; font-size:12px;}
 
-pre {font-family: Garamond, serif; font-size:12px; color:#000;}
+pre {font-family: palatino, serif; font-size:12px; color:#000;}
 
-.f {font-family: Garamond, serif; font-size:12px;}
+.f {font-family: palatino, serif; font-size:12px;}
 
 .notes {
   background: #EEEEEE;
