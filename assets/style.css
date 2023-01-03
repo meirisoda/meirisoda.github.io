@@ -36,7 +36,6 @@ pre {font-family: palatino, serif; font-size:12px; color:#000;}
 /* general */
 .inline {
   display: inline-block;
-  vertical-align: top;
 }
 
 /* in blog */
