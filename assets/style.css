@@ -137,56 +137,44 @@ button::-moz-focus-inner { margin:0; padding:0}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #232323; color: #fff;}
 
-@keyframes rainbow {
-  100%, 0% {
-    color: #f091b9;
-  }
-  12.5% {
-    color: #e67d7d;
-  }
-  25% {
-    color: #e5c87c;
-  }
-  37.5% {
-    color: #a0d48e;
-  }
-  50% {
-    color: #89c9c7;
-  }
-  75% {
-    color: #78a7db;
-  }
-  87.5% {
-    color: #aa8fe2;
-  }
-}
-@keyframes rainbow-border {
-  100%, 0% {
-    border: 1px solid #f091b9;
-    color: #f091b9;
-  }
-  12.5% {
-    border: 1px solid #e67d7d;
-    color: #e67d7d;
-  }
-  25% {
-    border: 1px solid #e5c87c;
-    color: #e5c87c;
-  }
-  37.5% {
-    border: 1px solid #a0d48e;
-    color: #a0d48e;
-  }
-  50% {
-    border: 1px solid #89c9c7;
-    color: #89c9c7;
-  }
-  75% {
-    border: 1px solid #78a7db;
-    color: #78a7db;
-  }
-  87.5% {
-    border: 1px solid #aa8fe2;
-    color: #aa8fe2;
-  }
-}
+html { text-size-adjust: 100%; }
+
+/* ・゜ ♡  these ⤵ are specifications for mobile phones in vertical view   ♡ ゜ ・ */
+@media screen and (max-width: 1000px) and (orientation: portrait){
+#everything { position: absolute; /* let's make sure that everything is fixed on the screen ◝꒰ ´ ˘ ` */
+	zoom: 160%; /* this viewport makes your site smaller, so let's apply zoom ◝꒰ ´ ˘ ` */
+	left:650px; top:-60px; /* change these values for positioning your site properly on the screen ◝꒰ ´ ˘ ` */
+/* ・゜ ♡ if your website has a vertical layout, you may delete the line below   ♡ ゜ ・ */
+	transform: rotate(90deg); /* this is for rotating your whole site, so it is always horizontally oriented ◝꒰ ´ ˘ ` */
+}}
+
+
+/* ・゜ ♡  these ⤵ are specifications for mobile phones in horizontal view   ♡ ゜ ・ */
+@media screen and (max-width: 1000px) and (orientation: landscape){
+#everything { position: absolute;
+	zoom: 95%; /* this viewport makes your site bigger, so let's remove zoom ◝꒰ ´ ˘ ` */
+	left:-105px; top:-35px;
+}}
+
+
+/* ・゜ ♡  these ⤵ are specifications for ipad screens   ♡ ゜ ・ */
+@media screen and (min-width: 2000px) and (orientation: landscape){
+#everything { position: absolute;
+zoom: 100%; /* this viewport usually doesn't require zoom ◝꒰ ´ ˘ ` */
+}}
+
+
+/* ・゜ ♡  these ⤵ are specifications for 1920 x 1080 monitors   ♡ ゜ ・ */
+@media screen and (min-width: 1700px) and (orientation: landscape){
+#everything { position: absolute;
+	zoom: 130%; /* this viewport makes your site smaller, so let's apply zoom ◝꒰ ´ ˘ ` */
+	left:60px; top:40px;
+}}
+
+
+/* ・゜ ♡  these ⤵ are specifications for 3840 x 2160 monitors ( 4k )   ♡ ゜ ・ */
+@media screen and (min-width: 3000px) and (orientation: landscape){
+#everything { position: absolute;
+	zoom: 260%; /* this viewport makes your site way smaller, so let's apply zoom ◝꒰ ´ ˘ ` */
+	left:100px; top:40px;
+}}
