@@ -1,13 +1,7 @@
-/* #232323 */
-
-@charset "UTF-8";
-@font-face {
-  font-family: "Louise";
-  src: url("Louise-Regular.woff2") format("woff2"), url("Louise-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+/*
+*written by meirisoda
+*do not copy
+*/
 
 ::-webkit-scrollbar {
     width: 6px;
@@ -26,19 +20,48 @@ iframe {
   border: none;
 }
 
-
 a {font-family: palatino, serif; font-size:12px; color:#232323;
 }
-
-a:hover {font-family: palatino, serif; font-size:12px; color:#fff; background-color:#232323;}
-a:selection {font-family: palatino, serif; font-size:12px; color:#232323;}
-
+  a:hover {font-family: palatino, serif; font-size:12px; color:#fff; background-color:#232323;}
+  a:selection {font-family: palatino, serif; font-size:12px; color:#232323;}
+  a img:hover {background-color: none;}
 
 b {font-family: palatino, serif; font-size:12px;}
 
 pre {font-family: palatino, serif; font-size:12px; color:#000;}
 
+/* when formatting doesn't work */
 .f {font-family: palatino, serif; font-size:12px;}
+
+/* general */
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* in blog */
+.blog {
+  padding: 20px;
+  display: block;
+  width: 600px;
+  max-height:500px;
+  padding-right: 7px;
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: palatino, serif;
+  font-size: 12px;
+}
+.date {
+  font-size: 10px;
+}
+
+
+/* rights */
+.rights {
+  color: #aaa;
+  font-size: 8px;
+}
 
 .notes {
   background: #EEEEEE;
@@ -55,6 +78,7 @@ h2 {
   color: #232323;
   text-decoration: none;
 }
+
 h2:hover {
   font-size: 30pt;
   text-align: left;
@@ -74,6 +98,7 @@ h2:hover {
   z-index: 0;
   background-color: hsl(0,0%,100%);
 }
+
 
 #rectangle{
     width:300px;
@@ -99,6 +124,7 @@ h2:hover {
   border: none;
   padding: none;
 }
+
 button::-moz-focus-inner { margin:0; padding:0}
 
 /* The container <div> - needed to position the dropdown content */
@@ -153,17 +179,16 @@ input, ul.submenu {
 
 html { text-size-adjust: 100%; }
 
-/* ・゜ ♡  these ⤵ are specifications for mobile phones in vertical view   ♡ ゜ ・ */
+/*specifications for mobile phones in vertical view*/
 @media screen and (max-width: 1000px) and (orientation: portrait){
-#everything { position: absolute; /* let's make sure that everything is fixed on the screen ◝꒰ ´ ˘ ` */
-	zoom: 160%; /* this viewport makes your site smaller, so let's apply zoom ◝꒰ ´ ˘ ` */
-	left:650px; top:-60px; /* change these values for positioning your site properly on the screen ◝꒰ ´ ˘ ` */
-/* ・゜ ♡ if your website has a vertical layout, you may delete the line below   ♡ ゜ ・ */
-	transform: rotate(90deg); /* this is for rotating your whole site, so it is always horizontally oriented ◝꒰ ´ ˘ ` */
+#everything { position: absolute;
+	zoom: 160%;
+	left:650px; top:-60px; /* change these values for positioning your site properly on the screen */
+	transform: rotate(90deg); /*  horizontally oriented*/
 }}
 
 
-/* ・゜ ♡  these ⤵ are specifications for mobile phones in horizontal view   ♡ ゜ ・ */
+/*specifications for mobile phones in horizontal view*/
 @media screen and (max-width: 1000px) and (orientation: landscape){
 #everything { position: absolute;
 	zoom: 95%; /* this viewport makes your site bigger, so let's remove zoom ◝꒰ ´ ˘ ` */
@@ -171,14 +196,14 @@ html { text-size-adjust: 100%; }
 }}
 
 
-/* ・゜ ♡  these ⤵ are specifications for ipad screens   ♡ ゜ ・ */
+/*specifications for ipad screens*/
 @media screen and (min-width: 2000px) and (orientation: landscape){
 #everything { position: absolute;
 zoom: 100%; /* this viewport usually doesn't require zoom ◝꒰ ´ ˘ ` */
 }}
 
 
-/* ・゜ ♡  these ⤵ are specifications for 1920 x 1080 monitors   ♡ ゜ ・ */
+/*specifications for 1920 x 1080 monitors*/
 @media screen and (min-width: 1700px) and (orientation: landscape){
 #everything { position: absolute;
 	zoom: 130%; /* this viewport makes your site smaller, so let's apply zoom ◝꒰ ´ ˘ ` */
@@ -186,7 +211,7 @@ zoom: 100%; /* this viewport usually doesn't require zoom ◝꒰ ´ ˘ ` */
 }}
 
 
-/* ・゜ ♡  these ⤵ are specifications for 3840 x 2160 monitors ( 4k )   ♡ ゜ ・ */
+/*specifications for 3840 x 2160 monitors ( 4k )*/
 @media screen and (min-width: 3000px) and (orientation: landscape){
 #everything { position: absolute;
 	zoom: 260%; /* this viewport makes your site way smaller, so let's apply zoom ◝꒰ ´ ˘ ` */
