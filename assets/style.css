@@ -111,8 +111,9 @@ button::-moz-focus-inner { margin:0; padding:0}
 .dropdown-content {
   display: none;
   position: absolute;
-  text-align: left;
-    right: -20px;
+  text-align: right;
+  padding-right: 2px;
+    right: -15px;
   background-color: #fff;
   font-family: palatino, sans-serif;
   min-width: 50px;
