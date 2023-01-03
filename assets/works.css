@@ -65,11 +65,7 @@ h2:hover {
 
 
 .page {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
   top: 0;
-  left: -100vw;
   overflow-y: auto;
   z-index: 0;
   background-color: hsl(0,0%,100%);

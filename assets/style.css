@@ -113,12 +113,16 @@ button::-moz-focus-inner { margin:0; padding:0}
   position: absolute;
   text-align: right;
   padding-right: 2px;
-    right: -15px;
+    right: -30px;
   background-color: #fff;
   font-family: palatino, sans-serif;
-  min-width: 50px;
+  min-width: 60px;
   z-index: 1;
+  cursor: pointer;
+  border: 1;
+  border-color: #232323;
 }
+
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -136,6 +140,16 @@ button::-moz-focus-inner { margin:0; padding:0}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #232323; color: #fff;}
+
+/*show the submenu when input is checked*/
+input:checked~ul.submenu {
+  display: block;
+}
+
+/*hide the inputs/checkmarks and submenu*/
+input, ul.submenu {
+  display: none;
+}
 
 html { text-size-adjust: 100%; }
 
