@@ -3,40 +3,26 @@
 *do not copy
 */
 
-::-webkit-scrollbar {
-    width: 6px;
-    background: transparent;
-    margin: 0.5em;
-}
-::-webkit-scrollbar-thumb {
-    width: 6px;
-    border-radius: 10px;
-    background-color: #b3b3b3;
-}
+::-webkit-scrollbar {width: 6px; background: transparent; margin: 0.5em;}
+::-webkit-scrollbar-thumb {width: 6px; border-radius: 10px; background-color: #b3b3b3;}
 
-iframe {
-  display:inline-block;
-  overflow-x:hidden;
-  border: none;
-}
+iframe {display:inline-block; overflow-x:hidden; border: none;}
 
-a {font-family: palatino, serif; font-size:12px; color:#232323;
-}
-  a:hover {font-family: palatino, serif; font-size:12px; color:#fff; background-color:#232323;}
-  a:selection {font-family: palatino, serif; font-size:12px; color:#232323;}
+a {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#3d3d3d;}
+  a:hover {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#fff; background-color:#3d3d3d;}
+  a:selection {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#3d3d3d;}
   a img:hover {background-color: none;}
 
-b {font-family: palatino, serif; font-size:12px;}
-
-pre {font-family: palatino, serif; font-size:12px; color:#000;}
+b {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color: #3d3d3d;}
+pre {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#000;}
+mark {color: #3d3d3d;}
 
 /* when formatting doesn't work */
-.f {font-family: palatino, serif; font-size:12px;}
+.f {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color: #3d3d3d;}
+.f {font-family: monospace; letter-spacing: -0.35px;  font-size:12px;}
 
 /* general */
-.inline {
-  display: inline-block;
-}
+.inline {display: inline-block;}
 
 /* in blog */
 .blog {
@@ -48,7 +34,7 @@ pre {font-family: palatino, serif; font-size:12px; color:#000;}
   text-align: left;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: palatino, serif;
+  font-family: monospace; letter-spacing: -0.35px;
   font-size: 12px;
 }
 .date {
@@ -81,7 +67,7 @@ pre {font-family: palatino, serif; font-size:12px; color:#000;}
 h2 {
   font-size: 30pt;
   text-align: left;
-  color: #232323;
+  color: #3d3d3d;
   text-decoration: none;
 }
 
@@ -89,7 +75,7 @@ h2:hover {
   font-size: 30pt;
   text-align: left;
   color: #fff;
-  background-color:#232323;
+  background-color:#3d3d3d;
   text-decoration:none;
 }
 
@@ -120,13 +106,26 @@ h2:hover {
 /* Dropdown Button */
 .dropbtn {
   background-color: #fff;
-  color: #232323;
+  color: #3d3d3d;
   padding:0;
   line-height:1;
   position:left;
   text-align: left;
   font-size: 12px;
-  font-family: palatino, sans-serif;
+  font-family: monospace;
+  border: none;
+  padding: none;
+}
+
+.dropbtn:hover {
+  background-color: #3d3d3d;
+  color: #fff
+  padding:0;
+  line-height:1;
+  position:left;
+  text-align: left;
+  font-size: 12px;
+  font-family: monospace;
   border: none;
   padding: none;
 }
@@ -144,8 +143,9 @@ button::-moz-focus-inner { margin:0; padding:0}
   display: none;
   position: absolute;
   text-align: right;
-  padding-right: 2px;
-    right: -30px;
+  padding-right: 5px;
+  padding-left: 5px;
+  right: -20px;
   background-color: #fff;
   font-family: palatino, sans-serif;
   min-width: 60px;
@@ -155,23 +155,47 @@ button::-moz-focus-inner { margin:0; padding:0}
   border-color: #232323;
 }
 
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  text-align: right;
+  padding-right: 5px;
+  padding-left: 5px;
+  right: -55px;
+  background-color: #fff;
+  font-family: palatino, sans-serif;
+  min-width: 60px;
+  z-index: 1;
+  cursor: pointer;
+  border: 1;
+  border-color: #232323;
+}
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #232323;
+  color: #3d3d3d;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-1 a {
+  color: #3d3d3d;
   padding: 0;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #232323;}
+.dropdown-content a:hover {background-color: #3d3d3d;}
+.dropdown-content-1 a:hover {background-color: #3d3d3d;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content-1 {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #232323; color: #fff;}
+.dropdown:hover .dropbtn {color:#fff; background-color: #3d3d3d;}
 
 /*show the submenu when input is checked*/
 input:checked~ul.submenu {
