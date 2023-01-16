@@ -4,21 +4,21 @@
 */
 
 ::-webkit-scrollbar {width: 6px; background: transparent; margin: 0.5em;}
-::-webkit-scrollbar-thumb {width: 6px; border-radius: 10px; background-color: #b3b3b3;}
+::-webkit-scrollbar-thumb {width: 6px; border-radius: 10px; background-color: #B0B7CA;}
 
 iframe {display:inline-block; overflow-x:hidden; border: none;}
 
-a {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#3d3d3d;}
-  a:hover {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#fff; background-color:#3d3d3d;}
-  a:selection {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#3d3d3d;}
+a {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#526082;}
+  a:hover {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#fff; background-color:#526082;}
+  a:selection {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#526082;}
   a img:hover {background-color: none;}
 
-b {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color: #3d3d3d;}
+b {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color: #526082;}
 pre {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#000;}
-mark {color: #3d3d3d;}
+mark {color: #526082;}
 
 /* when formatting doesn't work */
-.f {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color: #3d3d3d;}
+.f {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color: #526082;}
 .f {font-family: monospace; letter-spacing: -0.35px;  font-size:12px;}
 
 /* general */
@@ -37,9 +37,9 @@ mark {color: #3d3d3d;}
   font-family: monospace; letter-spacing: -0.35px;
   font-size: 12px;
 }
-.date {
-  font-size: 10px;
-}
+.date {font-size: 10px; color:#526082;}
+
+.text {color:#526082;}
 
 
 /* rights */
@@ -67,7 +67,7 @@ mark {color: #3d3d3d;}
 h2 {
   font-size: 30pt;
   text-align: left;
-  color: #3d3d3d;
+  color: #526082;
   text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ h2:hover {
   font-size: 30pt;
   text-align: left;
   color: #fff;
-  background-color:#3d3d3d;
+  background-color:#526082;
   text-decoration:none;
 }
 
@@ -106,7 +106,7 @@ h2:hover {
 /* Dropdown Button */
 .dropbtn {
   background-color: #fff;
-  color: #3d3d3d;
+  color: #526082;
   padding:0;
   line-height:1;
   position:left;
@@ -118,7 +118,7 @@ h2:hover {
 }
 
 .dropbtn:hover {
-  background-color: #3d3d3d;
+  background-color: #526082;
   color: #fff
   padding:0;
   line-height:1;
@@ -173,29 +173,29 @@ button::-moz-focus-inner { margin:0; padding:0}
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #3d3d3d;
+  color: #526082;
   padding: 0;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content-1 a {
-  color: #3d3d3d;
+  color: #526082;
   padding: 0;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #3d3d3d;}
-.dropdown-content-1 a:hover {background-color: #3d3d3d;}
+.dropdown-content a:hover {background-color: #526082;}
+.dropdown-content-1 a:hover {background-color: #526082;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropdown-content-1 {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color:#fff; background-color: #3d3d3d;}
+.dropdown:hover .dropbtn {color:#fff; background-color: #526082;}
 
 /*show the submenu when input is checked*/
 input:checked~ul.submenu {

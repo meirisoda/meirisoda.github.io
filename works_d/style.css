@@ -27,11 +27,11 @@ iframe {
 }
 
 
-a {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#3d3d3d;
+a {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#526082;
 }
 
-a:hover {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#fff; background-color:#3d3d3d;}
-a:selection {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#3d3d3d;}
+a:hover {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#fff; background-color:#526082;}
+a:selection {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#526082;}
 
 
 b {font-family: monospace; letter-spacing: -0.35px;  font-size:12px;}
@@ -52,14 +52,14 @@ pre {font-family: monospace; letter-spacing: -0.35px;  font-size:12px; color:#00
 h2 {
   font-size: 30pt;
   text-align: left;
-  color: #3d3d3d;
+  color: #526082;
   text-decoration: none;
 }
 h2:hover {
   font-size: 30pt;
   text-align: left;
   color: #fff;
-  background-color:#3d3d3d;
+  background-color:#526082;
   text-decoration:none;
 }
 
@@ -89,7 +89,7 @@ h2:hover {
 /* Dropdown Button */
 .dropbtn {
   background-color: #fff;
-  color: #3d3d3d;
+  color: #526082;
   padding:0;
   line-height:1;
   position:left;
@@ -122,7 +122,7 @@ button::-moz-focus-inner { margin:0; padding:0}
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #3d3d3d;
+  color: #526082;
   padding: 0;
   text-decoration: none;
   display: block;
