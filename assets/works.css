@@ -9,15 +9,8 @@
   font-display: swap;
 }
 
-::-webkit-scrollbar {
-    width: 6px;
-    background: transparent;
-    margin: 0.5em;
-}
-::-webkit-scrollbar-thumb {
-    width: 6px;
-    border-radius: 10px;
-    background-color: #b3b3b3;
+::-webkit-scrollbar {width: 6px; background: transparent; margin: 0.5em;}
+::-webkit-scrollbar-thumb {width: 6px; border-radius: 10px; background-color: #B0B7CA;}
 }
 
 iframe {
