@@ -59,6 +59,22 @@ mark {color: #3b3b3b;}
   font-size:15.4px;
 }
 
+#gallery {
+   line-height:0;
+   -webkit-column-count:4; /* split it into 5 columns */
+   -webkit-column-gap:3px; /* give it a 5px gap between columns */
+   -moz-column-count:4;
+   -moz-column-gap:3px;
+   column-count:4;
+   column-gap:3px;
+}
+
+#gallery img {
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
+
+
 .notes {
   background: #EEEEEE;
   width: max-content;
