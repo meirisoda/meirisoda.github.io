@@ -5,6 +5,8 @@
 
 ::-webkit-scrollbar {width: 6px; background: transparent; margin: 0.5em;}
 ::-webkit-scrollbar-thumb {width: 6px; border-radius: 10px; background-color: #aaa;}
+::selection {background: #3b3b3b; color: #fff;}
+::-moz-selection {background: #3b3b3b; color: #fff;}
 
 iframe {display:inline-block; overflow-x:hidden; border: none;}
 
