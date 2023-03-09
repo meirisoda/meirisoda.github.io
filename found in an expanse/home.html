@@ -1,0 +1,21 @@
+<html>
+<head>
+	<link rel="stylesheet" href="./style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0.8">
+</head>
+
+<body>
+		<audio id="audio" src="./icandance.mp3"></audio>
+	<iframe src="clover.html" style="width:100%; height: 100%; border: none;">
+
+<script>
+			const playMusicLink = document.getElementById('play-music');
+const audio = document.getElementById('audio');
+
+playMusicLink.addEventListener('click', function(event) {
+  event.preventDefault(); // prevent the link from navigating to a new page
+  audio.play(); // start playing the audio
+});
+</script>
+</body>
+</html>

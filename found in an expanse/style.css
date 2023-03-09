@@ -1,0 +1,192 @@
+html, body {
+	background-image: url("./ocean.jpg");
+}
+
+.centered-element {
+  width: 400px;
+  position: absolute;
+  left: 20%;
+  margin-left: -50px;
+  top: 20%;
+  margin-top: -50px;
+}
+
+a.click {font-style: italic; color: black;}
+a.click:hover {font-style: italic; text-decoration: underline ;color: black;}
+
+label {font-style: bold; text-decoration: underline; color: blue;}
+label:hover {font-style: italic; text-decoration: underline ;color: blue;}
+
+#checkBtn {display: none;}
+#world{display: none;}
+#checkBtn:checked ~ #world{display: block;}
+
+.hide {
+  display: none;
+}
+
+.inline {display: inline-block;}
+.second {padding-left: 30px;}
+
+.clover:hover + .hide {
+  display: block;
+}
+
+.fromclover-1 {
+    -webkit-animation: NAME-YOUR-ANIMATION 8s;
+    -moz-animation: NAME-YOUR-ANIMATION 8s;
+    -o-animation: NAME-YOUR-ANIMATION 8s;
+    animation: NAME-YOUR-ANIMATION 8s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.fromclover-2 {
+    -webkit-animation: NAME-YOUR-ANIMATION 15s;
+    -moz-animation: NAME-YOUR-ANIMATION 15s;
+    -o-animation: NAME-YOUR-ANIMATION 15s;
+    animation: NAME-YOUR-ANIMATION 15s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.fromclover-3 {
+    -webkit-animation: NAME-YOUR-ANIMATION 10s;
+    -moz-animation: NAME-YOUR-ANIMATION 10s;
+    -o-animation: NAME-YOUR-ANIMATION 10s;
+    animation: NAME-YOUR-ANIMATION 10s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.fromclover-4 {
+    -webkit-animation: NAME-YOUR-ANIMATION 18s;
+    -moz-animation: NAME-YOUR-ANIMATION 18s;
+    -o-animation: NAME-YOUR-ANIMATION 18s;
+    animation: NAME-YOUR-ANIMATION 18s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.fromclover-5 {
+    -webkit-animation: NAME-YOUR-ANIMATION 26s;
+    -moz-animation: NAME-YOUR-ANIMATION 26s;
+    -o-animation: NAME-YOUR-ANIMATION 26s;
+    animation: NAME-YOUR-ANIMATION 26s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.fromclover-6 {
+    -webkit-animation: NAME-YOUR-ANIMATION 35s;
+    -moz-animation: NAME-YOUR-ANIMATION 35s;
+    -o-animation: NAME-YOUR-ANIMATION 35s;
+    animation: NAME-YOUR-ANIMATION 35s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.fromclover-7 {
+    -webkit-animation: NAME-YOUR-ANIMATION 44s;
+    -moz-animation: NAME-YOUR-ANIMATION 44s;
+    -o-animation: NAME-YOUR-ANIMATION 44s;
+    animation: NAME-YOUR-ANIMATION 44s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-1 {
+    -webkit-animation: NAME-YOUR-ANIMATION 8s;
+    -moz-animation: NAME-YOUR-ANIMATION 8s;
+    -o-animation: NAME-YOUR-ANIMATION 8s;
+    animation: NAME-YOUR-ANIMATION 8s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-1 {
+    -webkit-animation: NAME-YOUR-ANIMATION 10s;
+    -moz-animation: NAME-YOUR-ANIMATION 10s;
+    -o-animation: NAME-YOUR-ANIMATION 10s;
+    animation: NAME-YOUR-ANIMATION 10s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-2 {
+    -webkit-animation: NAME-YOUR-ANIMATION 22s;
+    -moz-animation: NAME-YOUR-ANIMATION 22s;
+    -o-animation: NAME-YOUR-ANIMATION 22s;
+    animation: NAME-YOUR-ANIMATION 22s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-3 {
+    -webkit-animation: NAME-YOUR-ANIMATION 26s;
+    -moz-animation: NAME-YOUR-ANIMATION 26s;
+    -o-animation: NAME-YOUR-ANIMATION 26s;
+    animation: NAME-YOUR-ANIMATION 26s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+.backclover-4 {
+    -webkit-animation: NAME-YOUR-ANIMATION 35s;
+    -moz-animation: NAME-YOUR-ANIMATION 35s;
+    -o-animation: NAME-YOUR-ANIMATION 35s;
+    animation: NAME-YOUR-ANIMATION 35s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-5 {
+    -webkit-animation: NAME-YOUR-ANIMATION 45s;
+    -moz-animation: NAME-YOUR-ANIMATION 45s;
+    -o-animation: NAME-YOUR-ANIMATION 45s;
+    animation: NAME-YOUR-ANIMATION 45s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-6 {
+    -webkit-animation: NAME-YOUR-ANIMATION 55s;
+    -moz-animation: NAME-YOUR-ANIMATION 55s;
+    -o-animation: NAME-YOUR-ANIMATION 55s;
+    animation: NAME-YOUR-ANIMATION 55s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-7 {
+    -webkit-animation: NAME-YOUR-ANIMATION 59s;
+    -moz-animation: NAME-YOUR-ANIMATION 59s;
+    -o-animation: NAME-YOUR-ANIMATION 59s;
+    animation: NAME-YOUR-ANIMATION 59s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+
+.backclover-8 {
+    -webkit-animation: NAME-YOUR-ANIMATION 62s;
+    -moz-animation: NAME-YOUR-ANIMATION 62s;
+    -o-animation: NAME-YOUR-ANIMATION 62s;
+    animation: NAME-YOUR-ANIMATION 62s;}
+@keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-webkit-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-moz-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}
+@-o-keyframes NAME-YOUR-ANIMATION {0% {opacity: 0;} 49% {opacity: 0;} 50% {opacity: 1;} 99% {opacity: 1;} 100% {opacity: 1;}}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head> <link rel="icon" type="image/x-icon" href="./assets/favicon.ico"><link rel="stylesheet" href="./assets/style.css" type="text/css">
+  <meta name="viewport" content="width:device-width, initial-scale:1" />
+
+<div style="text-align:left">
+  <meta charset="utf-8">
+  <title>soda</title>
+
+
+<iframe src="menu.html" name="menu" style="width: 220px; height: 680px;"></iframe>
+<iframe src="welcome.html" name="main" style="width: 885px; height: 685px; padding:10px;"></iframe>
+
+
+
+  <script>$( "#result" ).load( "./about.html");</script>
+  <script>
+      if (document.body.clientWidth < 2360) {
+      viewport = document.querySelector("meta[name=viewport]");
+      viewport.setAttribute('content', 'width=device-width, initial-scale=0.67, user-scalable=0');
+      }
+  </script>
+
+</body>
+</html>
