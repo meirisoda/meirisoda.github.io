@@ -1,0 +1,95 @@
+/*
+*written by meirisoda
+*do not copy or reproduce without written consent
+*/
+
+html, body {
+	/* letter-spacing: -0.35px;
+     font-family:'メイリオ','Meiryo UI',Meiryo,Verdana,'ＭＳ Ｐゴシック',sans-serif; */
+  font-family: Arial;
+  line-height: 1.1em;
+  margin: 5px 5px 0px 5px;
+	text-align: left;
+  font-size: 11pt;
+
+}
+
+pre {
+    /* letter-spacing: -0.35px;
+     font-family:'メイリオ','Meiryo UI',Meiryo,Verdana,'ＭＳ Ｐゴシック',sans-serif; */
+  font-family: Arial;
+  line-height: 1.1em;
+  margin: 5px 5px 0px 5px;
+    text-align: left;
+  font-size: 11pt;
+
+
+}
+.body {font-family: Arial; line-height: 1; font-size: 12pt; text-align:left;}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+img.inline {display: inline-block;}
+
+a {text-decoration: none; color: grey; text-decoration: none;}
+a:hover {background-color: #e0e0e0;}
+
+.about {text-decoration: none; color: grey; background-color: #e0e0e0; text-decoration: none;}
+.about:hover {background-color: white;}
+
+.inline {display: inline-block; vertical-align: top;}
+.small {font-size: 8pt; color: gray;}
+.underline {text-decoration: underline;}
+
+
+
+
+
+■
+
+
+
+
+
+
+/*
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.dot {
+    /* border-radius: 100%; 
+    width: 10px;
+    height: 10px;
+    margin-bottom: auto;
+    margin-right: 0px;
+    margin-top: 4px;
+	display: inline-block; 
+}
+
+.square {
+    /* border-radius: 100%; 
+    width: 120px;
+    height: 120px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    margin-top: auto;
+    display: inline-block; 
+}
+
+.max {max-width: 120px; padding-bottom: 0px; padding-right: 3px;}
+
+::-webkit-scrollbar {width: 3px; background: transparent; margin: 0.5em;}
+::selection {background: gray; color: #fff;}
+::-webkit-scrollbar-thumb {width: 6px; border-radius: 10px; background-color: #aaa;}
+::-moz-selection {background: gray; color: #fff;}
+
+#about::selection {background-color: #333333; color: #fff;}
+#works::selection {background-color: #5F5F5F; color: #fff;}
+#blog::selection {background-color: #979797; color: #fff;}
+#room::selection {background-color: #CFCFCF; color: #fff;}
+*/

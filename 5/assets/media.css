@@ -1,0 +1,65 @@
+
+    
+html, body, pre {
+  /* letter-spacing: -0.35px;
+     font-family:'メイリオ','Meiryo UI',Meiryo,Verdana,'ＭＳ Ｐゴシック',sans-serif; */
+  font-family: Arial;
+  letter-spacing: -0.35px;
+  line-height: 1.1em;
+  margin: 5px 5px 0px 5px;
+  text-align: left;
+  font-size: 11pt;
+  background-color: white;
+}
+
+    h1 {
+      margin: 0; 
+    }
+    
+    /* code.js */
+    #content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+    }
+
+    .item {
+      width: 200px;
+    }
+    
+    /* codeusingtable.js */
+    table{
+      margin: 0 uato;
+    }
+    
+    td{
+      padding-right: 30px;
+    }
+
+    th {vertical-align: center;}
+
+    a.visited {text-decoration: none; color: gray;}
+    a {text-decoration: none; color: gray;}
+    a:hover {background-color: #e0e0e0; }
+
+      tr[type='song/album'] td[info='Name'], tr[type='song/album'] td[info='Type']{
+        color: #b8d2ff;
+      }
+      tr[type='manga'] td[info='Name'], tr[type='manga'] td[info='Type']{
+        color: #ffb7b5;
+      }
+      tr[type='anime'] td[info='Name'], tr[type='anime'] td[info='Type']{
+        color: #cfb8ff;
+      }
+      tr[type='artist/person'] td[info='Name'], tr[type='artist/person'] td[info='Type']{
+        color: #96de8c;
+      }
+      tr[type='video'] td[info='Name'], tr[type='video'] td[info='Type']{
+        color: #ffc88a;
+      }
+      tr[type='franchise/game'] td[info='Name'], tr[type='franchise/game'] td[info='Type']{
+        color: #dbcd4f;
+      }
+      tr[type='store/collective'] td[info='Name'], tr[type='store/collective'] td[info='Type']{
+        color: #ababab;
+      }
